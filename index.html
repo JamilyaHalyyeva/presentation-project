@@ -1,158 +1,548 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <link rel="stylesheet" href="./tennisClubStylesFolder/bootstrap.min.css" />
-    <link rel="stylesheet" href="./tennisClubStylesFolder/boxicons.min.css" />
-    <link
-      rel="stylesheet"
-      href="./tennisClubStylesFolder/owl.carousel.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="./tennisClubStylesFolder/owl.theme.default.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./tennisClubStylesFolder/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./tennisClubStylesFolder/owl.theme.default.min.css" />
     <link rel="stylesheet" href="./tennisClubStylesFolder/style.css" />
-    <title>Tennis Club Presentation Project</title>
-  </head>
-  <body>
-    <div class="">
-      <nav class="navbar navbar-expand-lg   fixed-top navbar-dark">
-        <div class="container-fluid ">
-          <a class="navbar-brand " href="#">Navbar</a>
-          <button
-            class="navbar-toggler "
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-            <div class="navbar-nav ">
-              <a class="nav-link active " aria-current="page" href="#">Home</a>
-              <a class="nav-link " href="#">Features</a>
-              <a class="nav-link  " href="#">Pricing</a>
-              <a class="nav-link disabled ">Disabled</a>
-            </div>
-          </div>
-        </div>
-      </nav>
+    <title>Tennis Club Hamburd</title>
+</head>
 
-      <!-- Navbar End -->
-      <div id="carouselExampleIndicators" class="carousel slide  " >
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators" 
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-        </div>
-        <div class="carousel-inner  w-100">
-          <div class="carousel-item active " >
-            <video autoplay muted loop class="d-block w-100" alt="...">
-              <source src="./images/120_2-video.mp4" type="video/mp4" />
-            </video>
-            <div class=" flex-column d-flex  h-100 align-items-center justify-content-center carousel-caption  text-white text-center">
-              <p  style="font-size: 8rem;   font-family: 'Barlow Condensed' ">MAKE YOUR GAME</p>
-              <h2>The best of Tennis Clubs in Hamburg </h2>
-            </div>
-          </div>
-          <div class="carousel-item ">
-            <img src="./images/120_1-1-copyright.jpg" class="d-block " alt="" >
-          </div>
-          <div class="carousel-item">
-            <img src="./images/120_1-2-copyright.jpg" class="d-block" alt="">
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+<!-- data-bs-spy="scroll" data-bs-target=".navbar" -->
 
-      <!-- <div class="d-flex">
-         <div class="z-1 position-absolute rounded-3">
-        <video autoplay muted loop id="myVideo">
-          <source src="./images/120_2-video.mp4" type="video/mp4" />
-          <p class="z-2 position-absolute rounded-3">
-            Your browser does not support HTML5 video.
-          </p>
-        </video>
-      </div>
-      </div> -->
+<body>
+    <!-- Top navidation -->
+    <!-- <nav class="top-nav " id="home">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-auto">
+                    <p>
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>tennisclib24@gmail.com</span>
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-phone"></i>
+                        <span>01737564849</span>
+                    </p>
+                </div>
+                <div class="col-auto">
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-facebook-f  "></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram "></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </nav> -->
+
+    <!-- Main navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand nav-link" href="#">
+                <img src="./images/ Tennis Club Logo Png Transparent - 583x583.png " alt="" />
+                TENNIS CLUB</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="home">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="home">Event</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="home">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact">Contact</a>
+                    </li>
+                </ul>
+                <span class="space"><a href="#" class="btn btn-primary btn-book ms-lg-3">BOOK A COURT</a></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Slider caorucel -->
+    <div class="slider-wrapper owl-carousel owl-theme" id="heroslider">
+        <div class="firstslider min-vh-100 bg-cover d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="text-uppercase display-2">
+                            make your <br />
+                            game
+                        </h1>
+                        <h5>
+                            The club academy offers everything you need become the best
+                        </h5>
+                        <a href="#" class="btn btn-primary btn-join text-uppercase ms-lg-3 m-5">join our club</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="secondslider min-vh-100 bg-cover d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="text-uppercase display-2">
+                            greate for <br />Family & kins <br />
+                            bonding!
+                        </h1>
+
+                        <!-- <a href="#" class="btn  btn-primary btn-join text-uppercase ms-lg-3 m-5 ">join our club</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="thirdslider min-vh-100 bg-cover d-flex align-items-center text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="text-uppercase display-2">
+                            open for <br />tennis and <br />
+                            pickleball!
+                        </h1>
+                        <h5>
+                            The club academy offers everything you need become the best
+                        </h5>
+                        <a href="#" class="btn btn-primary btn-join text-uppercase ms-lg-3 m-5">join our club</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About page -->
+    <section>
+        <!-- We look after  -->
+        <div class="my-3 container">
+            <div class="row mb-5 row-cols-1 row-cols-md-2">
+                <div class="col mb-3">
+                    <h5 class="text-secondary">WHAT WE OFFER</h5>
+                    <h1 class="text-dark">
+                        OUR TOP MEMBERSHIP<br />
+                        SERVICES FOR YOU
+                    </h1>
+                </div>
+                <div class="col">
+                    <p>
+                        Adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. Ut enim ad minim viniam, quis nostrud
+                        exercitacion ullamco.
+                    </p>
+                    <p>
+                        Adipiscing elit, sed do eiusmod tempor incididunt labore et dolore
+                        magna aliqua. Ut enim ad minim viniam.
+                    </p>
+                </div>
+            </div>
+            <!-- We look after bottom   -->
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+                <div class="col hvr">
+                    <div class="card align-items-center border-0">
+                        <img src="./images/badminton-racket-und-feder.png" class="card-img-top card-image-size"
+                            alt="..." />
+                        <div class="card-body text-center">
+                            <h5 class="card-title">PREMIUM TOOLS</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <p><a href="#" class="text-primary"> Details --></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col hvr">
+                    <div class="card align-items-center border-0">
+                        <img src="./images/tennisplatz (1).png" class="card-img-top card-image-size" alt="..." />
+                        <div class="card-body text-center">
+                            <h5 class="card-title">TOP TOURNAMENTS</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <p><a href="#" class="text-primary"> Details --></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col hvr">
+                    <div class="card align-items-center border-0">
+                        <img src="./images/coach.png" class="card-img-top card-image-size" alt="..." />
+                        <div class="card-body text-center">
+                            <h5 class="card-title">LOCKERS & SHOWERS</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <p><a href="#" class="text-primary"> Details --></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col hvr">
+                    <div class="card align-items-center border-0">
+                        <img src="./images/trophae.png" class="card-img-top card-image-size" alt="..." />
+                        <div class="card-body text-center">
+                            <h5 class="card-title">EXPERT SUPERVISION</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <p><a href="#" class="text-primary"> Details --></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Video page -->
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-inner" style="size: 100px">
+            <div class="carousel-item active embed-responsive">
+                <video autoplay muted loop id="myVideo" class="embed-responsive-item col-sm-12" style="width: 100%">
+                    <source src="./images/120_2-video.mp4" type="video/mp4" />
+                </video>
+                <div
+                    class="carousel-caption flex-column d-flex h-100 align-items-center justify-content-center text-white text-center">
+                    <p style="font-size: 8vw; font-family: 'Barlow Condensed'">
+                        MAKE YOUR GAME
+                    </p>
+                    <h2>The best of Tennis Clubs in Hamburg</h2>
+                </div>
+            </div>
+        </div>
     </div>
 
+ <!-- Price plan page  -->
+    <div class="row row-cols-1 mt-5">
+        <p class="col  text-dark text-center">About Us</p>
+        <h1 class="col text-dark text-center">OUR FLEXIBLE PRICING PLAN</h1>
+    </div>
+
+    <div class="row row-cols-1 p-5">
+
+        <div class="col-md-6">
+            <div class="row row-cols-1 justify-content-end">
+                <div class="col-md-10 my-3">
+                    
+                    <div class="price-description ">
+                        <div>
+                            <h4 class="text-dark">FULL FAMILY MEMBERSHIP</h4>
+                        </div>
+                        <div class="dotped"></div>
+                        <div>
+                            <h4 class="text-dark">&nbsp$354</h4>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <p>At vero eos et accusam et justo duo dolores.</p>
+                    </div>
+
+                </div>
+
+                <div class="col-md-10 my-3 ">
+                    <div class="price-description ">
+                        <div>
+                            <h4 class="text-dark">FULL ADULT MEMBERSHIP
+                            </h4>
+                        </div>
+                        <div class="dotped"></div>
+                        <div>
+                            <h4 class="text-dark">&nbsp$254</h4>
+                        </div>
+                    </div>
+                    <p>At vero eos et accusam et justo duo dolores.</p>
+
+                </div>
+
+                <div class="col-md-10 my-3">
+                    <div class="price-description ">
+                        <div>
+                            <h4 class="text-dark">  FULL JUNIOR MEMBERSHIP</h4>
+                        </div>
+                        <div class="dotped"></div>
+                        <div>
+                            <h4 class="text-dark">&nbsp$144</h4>
+                        </div>
+                    </div>
+                    <p>At vero eos et accusam et justo duo dolores.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-md-6">
+            <div class="row">
+                <div class="col-md-10 my-3">
+                    <div class="price-description ">
+                        <div>
+                            <h4 class="text-dark">DUAL (ADULT) MEMBERSHIP</h4>
+                        </div>
+                        <div class="dotped"></div>
+                        <div>
+                            <h4 class="text-dark"> &nbsp$354</h4>
+                        </div>
+                    </div>
+                    <div>
+                        <p>At vero eos et accusam et justo duo dolores.</p>
+                    </div>
+
+                </div>
+
+                <div class="col-md-10 my-3 ">
+                    <div class="price-description ">
+                        <div>
+                            <h4 class="text-dark">
+                                COURTS ONLY MEMBERSHIP
+                                </h4>
+                        </div>
+                        <div class="dotped"></div>
+                        <div>
+                            <h4 class="text-dark">&nbsp$154</h4>
+                        </div>
+                    </div>
+                    <p>At vero eos et accusam et justo duo dolores.</p>
+
+                </div>
+
+                <div class="col-md-10 my-3">
+                    <div class="price-description ">
+                        <div>
+                            <h4 class="text-dark">
+                                STUDENTS’  MEMBERSHIP
+                                </h4>
+                        </div>
+                        <div class="dotped"></div>
+                        <div>
+                            <h4 class="text-dark">&nbsp$124</h4>
+                        </div>
+                    </div>
+                    <p>At vero eos et accusam et justo duo dolores.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Blog page -->
+    <div class="container my-3">
+        <div class="d-flex justify-content-center flex-column align-items-center m-5">
+            <h6 class="text-secondary">FROM OUR BLOG</h6>
+            <h1 class="text-dark">RECENT NEWS</h1>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+            <div class="col">
+                <div class="card align-items-center border-0">
+                    <img src="./images/service-01-365x450.jpg" class="card-img-top image-size" alt="..." />
+                    <div class="card-body text-center">
+                        <h5 class="card-title">PREMIUM TOOLS</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card align-items-center border-0">
+                    <img src="./images/post-image5-copyright.jpg" class="card-img-top image-size" alt="..." />
+                    <div class="card-body text-center">
+                        <h5 class="card-title">TOP TOURNAMENTS</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card align-items-center border-0">
+                    <img src="./images/service-03-365x450.jpg" class="card-img-top image-size" alt="..." />
+                    <div class="card-body text-center">
+                        <h5 class="card-title">LOCKERS & SHOWERS</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card align-items-center border-0">
+                    <img src="./images/coach-04.jpg" class="card-img-top image-size" alt="..." />
+                    <div class="card-body text-center">
+                        <h5 class="card-title">EXPERT SUPERVISION</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- contact Form -->
+    <form>
+        <div class="row p-5">
+            <div class="col-md-6 ps-5">
+                <h6 class="text-uppercase text-secondary">Contact Us</h6>
+                <h1 class="text-uppercase text-dark">
+                    HAVE QUESTIONS? <br />
+                    GET IN TOUCH!
+                </h1>
+                <p>
+                    Adipiscing elit, sed do eiusmod tempor incididunt ut labore et<br />
+                    dolore magna aliqua. Ut enim ad minim.
+                </p>
+                <ul class="contact">
+                    <li>
+                        <i class="fa-solid fa-location-dot" style="color: #007fff"></i>
+                        11792 London Rd, Derby, OH 43117, US
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-mobile-screen-button" style="color: #007fff"></i>
+                        +1 800 555 45 65
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope" style="color: #007fff"></i>
+                        tennisclub24@gmail.com
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <div class="row row-cols-1">
+                    <div class="col-md-6 my-3">
+                        <div class="input-group border-bottom">
+                            <div class="input-icon input-group-text">
+                                <i class="fa-regular fa-user" style="color: #007fff"></i>
+                            </div>
+                            <input class="border-0 form-control form-control-lg" type="text" placeholder="Name" />
+                        </div>
+                    </div>
+                    <div class="col-md-6 my-3">
+                        <div class="input-group border-bottom">
+                            <div class="input-icon input-group-text">
+                                <i class="fa-solid fa-envelope" style="color: #007fff"></i>
+                            </div>
+                            <input class="border-0 form-control form-control-lg" type="email"
+                                placeholder="Email Address" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row row-cols-1">
+                    <div class="col-md-6 my-1">
+                        <div class="input-group border-bottom">
+                            <div class="input-icon input-group-text">
+                                <i class="fa-solid fa-phone-volume" style="color: #007fff"></i>
+                            </div>
+                            <input class="border-0 form-control form-control-lg" type="text" placeholder="Phone" />
+                        </div>
+                    </div>
+                    <div class="col-md-6 my-1">
+                        <div class="input-group border-bottom">
+                            <div class="input-icon input-group-text">
+                                <i class="fa-solid fa-circle-info" style="color: #007fff"></i>
+                            </div>
+                            <input class="border-0 form-control form-control-lg" type="text" placeholder="Subject" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row row-cols-1">
+                    <div class="col-md-12 my-1">
+                        <div class="input-group border-bottom">
+                            <div class="input-icon input-group-text">
+                                <i class="fa-solid fa-pencil" style="color: #007fff"></i>
+                            </div>
+                            <textarea class="border-0 form-control form-control-lg" rows="3"
+                                placeholder="How can we help you? Feel free to get in touch"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <!-- Footer bottom page -->
+    <div class="footer-bg">
+        <div>
+            <h2>
+                WE'RE PROUD TO BE <br />
+                THE BEST
+            </h2>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="card border-0">
+                    <div class="card-body clr">
+                        <h5 class="card-title">ADDRESS</h5>
+                        <p class="card-text">
+                            The USA — <br />
+                            11792 London Rd, Derby, <br />
+                            OH 43117, US
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card border-0">
+                    <div class="card-body clr">
+                        <h5 class="card-title">SAY HELLO</h5>
+                        <p class="card-text">
+                            <a class="clr" href="#">info@email.com</a>
+                        </p>
+                        <p>+49 1737564849</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card border-0">
+                    <div class="card-body clr">
+                        <h5 class="card-title">SOCIALS</h5>
+                        <div class="row row-cols-1">
+                            <div class="col-auto d-flex justify-content-center">
+                                <div class="social-links text-white">
+                                    <ul>
+                                        <li>
+                                            <a class="clr" href="#"><i class="fa-brands fa-youtube"></i>&nbspYoutube</a>
+                                        </li>
+                                        <li>
+                                            <a class="clr" href="#"><i
+                                                    class="fa-brands fa-instagram"></i>&nbspInsatgram</a>
+                                        </li>
+                                        <li>
+                                            <a class="clr" href="#"><i
+                                                    class="fa-brands fa-facebook-f"></i>&nbspFacebook</a>
+                                        </li>
+                                        <li>
+                                            <a class="clr" href="#"><i class="fa-brands fa-twitter"></i>&nbspTwitter</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card border-0">
+                    <div class="card-body clr">
+                        <h5 class="card-title">NEWSLETTER</h5>
+                        <p class="card-text">
+                            With supporting text below as a natural lead-in to additional
+                            content.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/aff1f47a7a.js" crossorigin="anonymous"></script>
     <script src="./tennisClubJsFolder/bootstrap.bundle.min.js"></script>
     <script src="./tennisClubJsFolder/jquery.min.js"></script>
     <script src="./tennisClubJsFolder/owl.carousel.min.js"></script>
-  </body>
-</html>
+    <script src="./tennisClubJsFolder/app.js"></script>
+</body>
 
-<!-- main vaigation -->
-<!-- <nav class="main-nav">
-          <div class="container">
-            <div class="row justify-content-between">
-              <div class="col-auto text-light">
-                <p>
-                  <i class="bx bxs-envelope"></i>
-                  <span>tennisclub24@gmail.com</span>
-                </p>
-                <p>
-                  <i class="bx bxs-phone-call"></i>
-                  <span>01737564849</span>
-                </p>
-              </div>
-              <div class="col-auto">
-                <div class="social-link">
-                  <a href="#">
-                    <i class="bx bxl-facebook"></i>
-                  </a>
-                  <a href="#">
-                    <i class="bx bxl-twitter"></i> </a
-                  ><a href="#">
-                    <i class="bx bxl-github"></i>
-                  </a>
-                  <a href="#">
-                    <i class="bx bxl-youtube"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </nav> -->
+</html>

@@ -8,7 +8,7 @@ $(document).ready(function(){
         dots:false,
         smartSpeed:1000,
         autoplay:true,
-        autoplayTimeout:5000,
+        autoplayTimeout:4000,
         autoplayHoverPause:true,
         responsive:{
             0:{
